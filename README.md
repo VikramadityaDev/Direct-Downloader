@@ -24,6 +24,9 @@ DirectGen app extracts direct links from URLs, allowing you to stream and downlo
 </tr>
 </table>
 
+## Download
+Download the APK from [Github Releases](https://github.com/VikramadityaDev/Direct-Downloader/releases/) and install it.
+
 ## Installation
 DirectGen can be installed using the following methods:
 
