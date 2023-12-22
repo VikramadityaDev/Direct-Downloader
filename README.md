@@ -59,7 +59,7 @@ The following packages are used as dependencies in this project:
 
 ## Contribution
 
-Whether you have ideas, design changes, code cleaning, or real heavy code changes, help is always welcome. The more that is done, the better it gets! So feel free to create an issue and make a pull request 😊.
+We welcome contributions! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.😊
 
 ## License
 
