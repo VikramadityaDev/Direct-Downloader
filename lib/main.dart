@@ -3,7 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:direct_link/direct_link.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-void main() => runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -34,9 +38,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
   List<Map<String, dynamic>>? links;
   bool isLoading = false; // Added loading indicator flag.
-
   TextEditingController urlController = TextEditingController();
 
   @override
